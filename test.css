@@ -1,0 +1,51 @@
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+
+.title{
+    background: #7CFC00;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span{
+    color: #fa0;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background: #7CFC00;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.square:hover{
+    background: #000;
+    cursor: pointer;
+}
+
+.copy{
+    color: #7CFC00;
+   margin: auto;
+}
+
+.wolfe{
+    width: 80px;
+    background: none;
+    border: 2px solid #4caf50 ;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.wolf{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}
